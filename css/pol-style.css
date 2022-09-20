@@ -1,0 +1,17 @@
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 0.5rem;
+}
+#map {
+  height: 30rem;
+  margin: 1rem;
+  margin-top: 4rem;
+  border-radius: 5px;
+}
+.content-item p.list {
+  opacity: 0.5;
+}
+.content-item h4 span {
+  opacity: 0.3;
+}

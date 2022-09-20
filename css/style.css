@@ -296,7 +296,6 @@ button:focus,
 @media (max-width: 768px) {
   .header {
     padding: 0;
-    text-align: center;
     border-bottom: 1px solid #ededed;
   }
 
@@ -305,7 +304,7 @@ button:focus,
   }
 
   .header .content {
-    padding: 50px;
+    padding: 14px;
   }
 }
 
@@ -329,7 +328,7 @@ button:focus,
 
 .social-icon li {
   display: inline-block;
-  margin: 0 2px;
+  margin: 2px;
 }
 
 .social-icon li a {
@@ -520,6 +519,9 @@ button:focus,
 }
 
 @media (max-width: 480px) {
+  .header h1 {
+    font-size: 21px;
+  }
   .footer {
     padding: 10px 20px;
   }
@@ -557,9 +559,4 @@ button:focus,
   margin: 0;
   text-align: center;
   top: 65%;
-}
-
-.map {
-  margin-top: 5rem;
-  height: 30rem;
 }
